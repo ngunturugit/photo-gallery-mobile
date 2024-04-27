@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, helvetica, sans-serif;
+}
+
+
+h1 {
+    color: #007d7b;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+
+nav ul li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+body, main {
+    background-color: white;
+    color:#000000
+}
+
+
+::placeholder {
+    color: #007d7b; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+images img {
+    border: 10px solid white; 
+    margin: -10px; 
+}
+
+header, body, nav, main, footer, h2, h3, form {
+    max-width: 485px;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    background-color: black; 
+    color: white; 
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+
+header {
+    background-color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+form input,
+form textarea,
+form select {
+    width: 485px;
+}
+
+form input[type="submit"] {
+    width:200px;
+    background-color: #007d7b; 
+    color: white; 
+    border: none; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+}
+
+
+#
+
+
+@media screen and (min-width: 880px) and (max-width: 1000px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1300px) {
+    body {
+        font-size: 18px;
+    }
+}
